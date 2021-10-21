@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap");
+@import "reset.css";
+@import "variables.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(250, 250, 250);
+  height: 1000vh;
+}
+body * {
+  font-family: "PT Sans Narrow";
+}
+
+.top-bar {
+  height: 60px;
+  background-color: white;
+  display: flex;
+}
+
+.top-bar__main-link {
+  display: block;
+  background-color: var(--navy);
+  width: 83px;
+  height: 60px;
+  text-align: center;
+}
+
+.top-bar__main-link__42-icon {
+  margin-top: 7.5px;
+  background-color: var(--navy);
+}
+
+.top-bar i {
+  color: var(--navy);
+}
+
+.top-bar__search-icon {
+  margin: 22px;
+  margin-right: 18px;
+}
+
+.top-bar__search {
+  border: none;
+  color: var(--navy);
+  width: 80vh;
+}
+
+.top-bar__notice-icon {
+  position: absolute;
+  right: 22vh;
+  top: 22px;
+}
+
+.top-bar__notice-number {
+  background-color: tomato;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  font-size: 8px;
+  font-family: sans-serif;
+  color: azure;
+  text-align: center;
+  position: absolute;
+  top: -14px;
+  right: -5px;
+}
+
+.profile {
+  position: absolute;
+  right: 17vh;
+}
+
+.profile-label {
+  position: relative;
+}
+
+.profile-label span {
+  position: absolute;
+  font-weight: 700;
+  font-size: 20px;
+  top: 20px;
+}
+
+.profile-label img {
+  position: absolute;
+  top: 10px;
+  left: 60px;
+}
+
+.profile-label span,
+#profile-nav li {
+  color: #666666;
+}
+
+.profile-label img {
+  border-radius: 50%;
+}
+
+#profile-nav {
+  list-style: none;
+  position: absolute;
+  top: 70px;
+  background-color: tomato;
+  width: 17vh;
+  padding: 2vh;
+}
+
+#profile-nav,
+#profile-menu {
+  display: none;
+}
+
+#profile-menu:checked + #profile-nav {
+  display: flex;
+  flex-direction: column;
+}
