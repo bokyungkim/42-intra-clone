@@ -2,6 +2,10 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,26 +13,37 @@
   </head>
   <body>
     <div class="top-bar">
-      <a class="top-bar__main-link" href="#">
-        <img
-          class="top-bar__main-link__42-icon"
-          src="https://projects.intra.42.fr/assets/42_logo-7dfc9110a5319a308863b96bda33cea995046d1731cebb735e41b16255106c12.svg"
-          width="42px"
-          height="42px"
-        />
-      </a>
-      <i class="top-bar__search-icon fas fa-search"></i>
+      <div class="top-bar__main">
+        <a class="top-bar__main__link" href="#">
+          <img
+            class="top-bar__main__link__42-icon"
+            src="https://projects.intra.42.fr/assets/42_logo-7dfc9110a5319a308863b96bda33cea995046d1731cebb735e41b16255106c12.svg"
+            width="42px"
+            height="42px"
+          />
+        </a>
+      </div>
+      <span
+        class="top-bar__search-icon material-icons-outlined"
+        style="font-size: 22px"
+      >
+        search
+      </span>
       <input class="top-bar__search" placeholder="search..." />
-      <i class="top-bar__notice-icon far fa-bell fa-lg"
-        ><div class="top-bar__notice-number">2</div>
-      </i>
+      <span
+        class="top-bar__notice-icon material-icons-outlined"
+        style="font-size: 31px"
+      >
+        notifications
+        <div class="top-bar__notice-number">2</div>
+      </span>
       <div class="profile">
         <label class="profile-label" for="profile-menu" value="bokim"
           ><span>bokim</span>
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTmu5w7dcnRTEO0nqiWiXQLok2XS0YdgO1UQ&usqp=CAU"
-            width="40"
-            height="40"
+            src="https://jpassets.jobplanet.co.kr/production/uploads/material/media/6165/1_2.jpeg"
+            width="43"
+            height="43"
           />
         </label>
         <input type="checkbox" id="profile-menu" />
@@ -40,9 +55,26 @@
         </ul>
       </div>
     </div>
-    <script
-      src="https://kit.fontawesome.com/1983e19e04.js"
-      crossorigin="anonymous"
-    ></script>
+    <div class="left-bar">
+      <span class="left-bar__user-icon material-icons-outlined">
+        person_outline
+      </span>
+      <span class="left-bar__project-icon material-icons-outlined"> hub </span>
+      <span class="left-bar__video-icon material-icons-outlined">
+        ondemand_video
+      </span>
+      <span class="left-bar__chat-icon material-icons-outlined">
+        question_answer
+      </span>
+      <span class="left-bar__bag-icon material-icons-outlined">
+        business_center
+      </span>
+      <span class="left-bar__compass-icon material-icons-outlined">
+        explore
+      </span>
+      <span class="left-bar__shop-icon material-icons-outlined">
+        shopping_cart
+      </span>
+    </div>
   </body>
 </html>
