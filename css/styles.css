@@ -162,6 +162,60 @@ body * {
   margin-left: 79px;
 }
 
-.content__info {
+.content {
   background-size: 180vh;
+  height: 315px;
+}
+
+.content__info {
+  padding: 10px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info__top {
+  padding-bottom: 10px;
+  width: 100%;
+  height: 50px;
+}
+
+.info__top__content {
+  display: flex;
+}
+
+.coalition {
+  position: relative;
+}
+
+.coalition-link {
+  position: absolute;
+  top: -10px;
+}
+
+.coalition-info {
+  position: relative;
+  margin-left: 52px;
+  width: 105px;
+}
+
+.coalition-name span {
+  color: var(--lee_red);
+}
+
+.coalition-nums {
+  position: absolute;
+  left: -4px;
+  top: 18px;
+}
+
+.coalition-score-num,
+.coalition-rank-num {
+  position: absolute;
+  top: 7px;
+}
+
+.coalition-rank {
+  margin-left: 32px;
 }
