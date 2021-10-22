@@ -8,8 +8,8 @@
 
 body {
   color: rgb(250, 250, 250);
+  height: 250vh;
 }
-
 body * {
   font-family: "PT Sans Narrow";
 }
@@ -28,14 +28,13 @@ body * {
   display: block;
   background-color: var(--navy);
   width: 79px;
-  height: 60px;
+  height: 250vh;
   text-align: center;
 }
 
 .top-bar__main__link__42-icon {
   margin-top: 7.5px;
   background-color: var(--navy);
-  position: static;
 }
 
 .top-bar__search-icon {
@@ -133,20 +132,24 @@ body * {
 .left-bar {
   background-color: var(--navy);
   width: 79px;
-  height: 100vh;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
   position: fixed;
 }
 
 .left-bar a {
-  display: block;
   width: 79px;
-  height: 35px;
-  margin-top: 6.5vh;
+  height: 79px;
   text-align: center;
 }
 
 .left-bar a:first-child {
-  margin-top: 3vh;
+  margin-top: 2.7vh;
+}
+
+.left-bar a:nth-child(2) {
+  margin-top: 7vh;
 }
 
 .left-bar span {
@@ -156,12 +159,4 @@ body * {
 
 .left-bar__user span {
   color: rgb(255, 255, 255);
-}
-
-.page {
-  margin-left: 79px;
-}
-
-.content__info {
-  background-size: 180vh;
 }
