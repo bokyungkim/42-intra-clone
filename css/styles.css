@@ -248,7 +248,7 @@ body * {
   justify-content: space-between;
   width: 135px;
   height: 30px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(32, 32, 38, 0.85);
   border-radius: 4px;
   text-align: center;
   top: 75px;
@@ -268,7 +268,7 @@ body * {
 .info__bottom__left {
   width: 30%;
   height: 235px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(32, 32, 38, 0.85);
   border-radius: 4px;
   display: flex;
   justify-content: center;
@@ -319,7 +319,7 @@ body * {
 .info__bottom__right__content {
   width: 49.5%;
   height: 180px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(32, 32, 38, 0.85);
   border-radius: 4px;
   display: flex;
   justify-content: center;
